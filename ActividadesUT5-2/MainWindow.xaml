@@ -18,6 +18,8 @@
             <Setter Property="Margin"
                     Value="2" /> 
         </Style>
+        
+        
         <ControlTemplate x:Key="TextBoxControlTemplate1"
                          TargetType="{x:Type TextBox}">
             <Border x:Name="border"
@@ -26,7 +28,7 @@
                     Background="{TemplateBinding Background}"
                     SnapsToDevicePixels="True"
                     CornerRadius="5"
-                    Padding="2,0,0,0">
+                    Padding="5,2,2,2">
                 <ScrollViewer x:Name="PART_ContentHost"
                               Focusable="False"
                               HorizontalScrollBarVisibility="Hidden"
